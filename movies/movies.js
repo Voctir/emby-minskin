@@ -56,10 +56,10 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                 Name: Globalize.translate('Years'),
                 Id: "years"
             },
-            {
-                Name: Globalize.translate('TopRated'),
-                Id: "toprated"
-            },
+//            {
+//                Name: Globalize.translate('TopRated'),
+//                Id: "toprated"
+//            },
             {
                 Name: Globalize.translate('Favorites'),
                 Id: "favorites"
