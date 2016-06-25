@@ -44,10 +44,10 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                 Name: Globalize.translate('Unwatched'),
                 Id: "unwatched"
             },
-            {
-                Name: Globalize.translate('Collections'),
-                Id: "collections"
-            },
+//            {
+//                Name: Globalize.translate('Collections'),
+//                Id: "collections"
+//            },
             {
                 Name: Globalize.translate('Genres'),
                 Id: "genres"
@@ -60,10 +60,11 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
 //                Name: Globalize.translate('TopRated'),
 //                Id: "toprated"
 //            },
-            {
-                Name: Globalize.translate('Favorites'),
-                Id: "favorites"
-            }];
+//            {
+//                Name: Globalize.translate('Favorites'),
+//                Id: "favorites"
+//            }
+			];
 
             var tabbedPageInstance = new tabbedPage(view, {
                 alphaPicker: self.alphaPicker
@@ -178,7 +179,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
             });
         }
 
-        function renderFavorites(page, pageParams, autoFocus, scroller, resolve) {
+/*        function renderFavorites(page, pageParams, autoFocus, scroller, resolve) {
 
             self.listController = new horizontalList({
 
@@ -210,7 +211,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
 
             self.listController.render();
         }
-
+*/
         function renderMovies(page, pageParams, autoFocus, scroller, resolve) {
 
             self.listController = new horizontalList({
@@ -278,7 +279,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
             self.listController.render();
         }
 
-        function renderCollections(page, pageParams, autoFocus, scroller, resolve) {
+/*        function renderCollections(page, pageParams, autoFocus, scroller, resolve) {
 
             self.listController = new horizontalList({
 
@@ -306,7 +307,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
 
             self.listController.render();
         }
-
+*/
         function renderYears(page, pageParams, autoFocus, scroller, resolve) {
 
             self.listController = new horizontalList({
