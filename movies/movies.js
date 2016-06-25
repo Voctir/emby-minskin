@@ -343,7 +343,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
             self.listController.render();
         }
 
-        function renderTopRated(page, pageParams, autoFocus, scroller, resolve) {
+/*        function renderTopRated(page, pageParams, autoFocus, scroller, resolve) {
 
             self.listController = new horizontalList({
 
@@ -378,6 +378,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
 
             self.listController.render();
         }
-    }
+*/  
+  }
 
 });
