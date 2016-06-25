@@ -55,7 +55,7 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
             {
                 Name: Globalize.translate('Years'),
                 Id: "years"
-            },
+            }//,
 //            {
 //                Name: Globalize.translate('TopRated'),
 //                Id: "toprated"
@@ -110,15 +110,15 @@ define(['loading', 'alphaPicker', './../components/horizontallist', './../compon
                     case 'years':
                         renderYears(page, pageParams, autoFocus, tabbedPage.bodyScroller, resolve);
                         break;
-                    case 'toprated':
-                        renderTopRated(page, pageParams, autoFocus, tabbedPage.bodyScroller, resolve);
-                        break;
-                    case 'collections':
-                        renderCollections(page, pageParams, autoFocus, tabbedPage.bodyScroller, resolve);
-                        break;
-                    case 'favorites':
-                        renderFavorites(page, pageParams, autoFocus, tabbedPage.bodyScroller, resolve);
-                        break;
+//                    case 'toprated':
+//                        renderTopRated(page, pageParams, autoFocus, tabbedPage.bodyScroller, resolve);
+//                        break;
+//                    case 'collections':
+//                        renderCollections(page, pageParams, autoFocus, tabbedPage.bodyScroller, resolve);
+//                        break;
+//                    case 'favorites':
+//                        renderFavorites(page, pageParams, autoFocus, tabbedPage.bodyScroller, resolve);
+//                        break;
                     case 'genres':
                         renderGenres(page, pageParams, autoFocus, tabbedPage.bodyScroller, resolve);
                         break;
