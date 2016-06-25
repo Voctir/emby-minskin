@@ -9,7 +9,7 @@ define(['datetime', './../skininfo', 'imageLoader', 'connectionManager', 'plugin
                 options.shape = 'portraitCard';
 
                 if (options.rows !== 0) {
-                    options.rows = 2;
+                    options.rows = 1;
                 }
             }
             else if (primaryImageAspectRatio && primaryImageAspectRatio > 1.34) {
